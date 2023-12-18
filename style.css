@@ -16,6 +16,7 @@
       background: #131b33;
       width: 300px;
       height: 400px;
+      overflow: hidden;
     }
     .card span:nth-child(1)
     {
@@ -74,7 +75,7 @@
     {
         0%
         {
-            transform: translateX(-100%);
+            transform: translateX(100%);
         }
         100%
         {
@@ -95,7 +96,7 @@
     {
         0%
         {
-            transform: translateY(-100%);
+            transform: translateY(100%);
         }
         100%
         {
