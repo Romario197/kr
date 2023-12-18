@@ -91,6 +91,7 @@
         height: 3px;
         background: linear-gradient(to top,transparent,#14f3fd);
         animation: animate_four 2s linear infinite;
+        animation-delay: 1s;
     }
     @keyframes animate_four
     {
